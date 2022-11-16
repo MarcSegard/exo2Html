@@ -1,0 +1,14 @@
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.titre_colonne {
+    background-color: rgb(209, 29, 188);
+}
