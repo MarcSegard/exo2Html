@@ -4,11 +4,11 @@ table {
     text-align: center;
 }
 
-td {
+td ,tr {
     border: solid 1px black;
     padding: 10px;
 }
 
-.titre_colonne {
+th{
     background-color: rgb(209, 29, 188);
 }
