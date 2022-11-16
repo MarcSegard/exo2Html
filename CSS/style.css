@@ -1,8 +1,11 @@
 header, h1 {
-    background-color: orange;
     color: blue;
     text-align: center;
     margin: 0;
+}
+
+.color_header {
+    background-color: orange;
 }
 
 nav {
@@ -34,10 +37,6 @@ em {
     margin-bottom: 300px;
 }
 
-footer {
-    background-color: orange;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -49,4 +48,8 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    height: 150px;
 }
