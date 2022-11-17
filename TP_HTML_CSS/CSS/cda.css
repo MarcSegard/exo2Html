@@ -1,0 +1,34 @@
+/* section tableau */
+#formations {
+    width: 75%;
+    border-collapse: collapse; 
+    margin: 75px 10%;
+}
+
+#formations caption {
+    text-align: left;
+}
+
+#formations td, #formations th{
+    border: solid 1px black;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.verte {
+    background-color: green;
+}
+
+.titre {
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+}
+
+a {
+    display: inline-block;
+}

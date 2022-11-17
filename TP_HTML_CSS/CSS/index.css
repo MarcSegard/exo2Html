@@ -1,0 +1,65 @@
+H2 {
+    margin-top: 75px;
+}
+
+
+/* section image afpa */
+#image_afpa {
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* section tableau */
+table caption {
+    font-size: 1.5rem;
+    text-align: left;
+    color: darkgreen;
+}
+
+section table {
+    width: 75%;
+    border-collapse: collapse; 
+    margin-top: 75px;
+}
+
+section table td, section table th {
+    border: solid 1px rgb(9, 99, 9);
+}
+
+td  {
+    text-align: center;
+}
+
+tbody tr th {
+    text-align: left;
+    color: blue;
+}
+
+.ferie {
+    color: rgb(186, 186, 22);
+}
+
+.back_ferie {
+    background-color: rgb(92, 115, 92);
+}
+
+thead, .non_ferie{
+    background-color: rgb(201, 209, 201);
+}
+
+/* section adresse */
+.adresse {
+    color: rgb(207, 139, 13);
+    font-style: bold;
+}
+
+#pos_adresse {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pos_adresse div {
+    margin-right: 50px;
+}
+
+
