@@ -2,12 +2,25 @@ article {
     margin-top: 20px;
 }
 
-section img{
+section div img{
     margin:10%;
     width: 250px;
-    height:350;
+    height:350px;
 }
 
 section {
+    display: table;
+    width: 100%;
+}
+
+div {
     display: table-cell;
+}
+
+div figure {
+    text-align: Left;
+}
+
+div figure figcaption {
+    text-align: center;
 }
