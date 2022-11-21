@@ -36,12 +36,13 @@ section {
 }
 
 section article:hover {
-    border: solid 3px purple;
+    /* border: solid 3px purple; */
+    box-shadow: 0px 0px 15px red;
 }
 
 
 section article {
-    height: 300px;
+    height: 250px;
     width: 80%;
     margin: auto;
     border-bottom: solid 3px;
@@ -56,23 +57,24 @@ section {
 }
 
 section article div {
-    width: 30%;
-    height: 300px;
+    width: 25%;
+    height: 200px;
     text-align: center;
     padding-top : 40px ;
 }
 
 section article p{
     width: 70%;
-    padding: 20px 50px 0 0;
+    padding: 20px 0px 0px 20px;
+
 }
 
-section article p:nth-of-type(odd){
-    float: right;
-}
-
-section article p:nth-of-type(even){
-    float: left;
+section article img {
+    width: 150px;
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(205, 47, 47);
 }
 
 section article p::first-letter {
@@ -88,13 +90,22 @@ section article:nth-child(even) {
     background-color: rgb(49, 201, 115);
 }
 
-section article img {
-    width: 200px;
-    border: solid 2px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 10px 10px rgb(205, 47, 47);
+section article:nth-child(odd) div{
+    float: right;
 }
+
+section article:nth-child(odd) p{
+    float: left;
+}
+
+section article:nth-child(even) div{
+    float: left;
+}
+
+section article:nth-child(even) p{
+    float: right;
+}
+
 .sep {
     width: 50%;
     margin: auto;
