@@ -1,0 +1,58 @@
+
+/* header */
+header h1, p{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    margin: 20px;
+}
+
+header p {
+    width: 60%;
+    margin: auto;
+}
+
+hr {
+    width: 80%;
+}
+
+
+ .line{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.image_chef img{
+    width:200px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.nom{
+    font-size: 2rem;
+}
+
+.titre{
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.blabla {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.image_employe img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
