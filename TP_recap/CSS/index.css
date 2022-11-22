@@ -29,27 +29,27 @@ nav a i {
 }
 
 #accueil::after {
-    font-family: "Font Awesome 5 Brands"; 
-    content: "\f179";
+    font: var(--fa-font-solid);
+    content: "\f015";
     padding-left: 15px;
 }
 
 #apropos::after {
-    font-family: "Font Awesome 5 Brands"; 
-    content: "\f17b";
+    font: var(--fa-font-solid);
+    content: "\f5d1";
     padding-left: 15px;
 }
 
 #contact::after {
-    font-family: "Font Awesome 5 Brands"; 
-    content: "\f7bb";
+    font: var(--fa-font-regular);
+    content: "\f086";
     padding-left: 15px;
 }
 
 
 #equip::after {
-    font-family: "Font Awesome 5 Brands"; 
-    content: "\f099";
+    font: var(--fa-font-solid);
+    content: "\f500";
     padding-left: 15px;
 }
 
