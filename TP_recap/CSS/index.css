@@ -28,6 +28,32 @@ nav a i {
     padding: 5px 5px;
 }
 
+#accueil::after {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f179";
+    padding-left: 15px;
+}
+
+#apropos::after {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f17b";
+    padding-left: 15px;
+}
+
+#contact::after {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f7bb";
+    padding-left: 15px;
+}
+
+
+#equip::after {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f099";
+    padding-left: 15px;
+}
+
+
 /* section */
 section {
     width:80%;
