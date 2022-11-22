@@ -59,6 +59,7 @@ section {
     width:80%;
     height: 300px;
     margin: auto;
+    display: inline;
 }
 
 section article:hover {
@@ -76,10 +77,6 @@ section article {
 
 section article:last-child {
     border-bottom: none;
-}
-
-section {
-    display: inline;
 }
 
 section article div {
@@ -130,6 +127,7 @@ section article:nth-child(even) div{
 
 section article:nth-child(even) p{
     float: right;
+    padding-right: 30px;
 }
 
 .sep {
