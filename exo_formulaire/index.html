@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <div class="container">
+      <span>INSCRIPTION A CSS3</span>
+      <form action="">
+        <div class="principale">
+          <label for="nom">Nom >></label>
+          <input type="text" name="nom" required />
+          <label for="pwd">Mot de passe >></label>
+          <input type="password" />
+          <div id="div-affiche">
+            <a href="#option" id="affiche">Affiche options</a>
+            <a id="cache" href="#affiche">Cacher options</a>
+          </div>
+          <div id="fill"></div>
+        </div>
+        <div id="option">
+          <label for="code-postal">Code Postal >></label>
+          <input type="number" pattern="[0-9]{5}" />
+          <label for="ville">Ville >></label>
+          <input type="text" />
+          <label for="pays">Pays >></label>
+          <select>
+            <option value="france">France</option>
+            <option value="italie">Italie</option>
+          </select>
+        </div>
+        <div id="envoyer">
+          <input type="submit" value="ENVOYER" />
+          <p>ou<a href="">annuler</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

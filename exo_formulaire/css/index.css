@@ -1,0 +1,105 @@
+.principale{
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    vertical-align: center;
+    position: relative;
+}
+
+#envoyer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.principale {
+    border-top: solid 1px;
+    padding-top: 20px;
+}
+
+.principale label, #option label {
+    grid-column: 1;
+}
+
+.principale input, #option input {
+    grid-column: 2;
+}
+
+.principale a{
+    grid-column: 1;
+}
+
+#envoyer input {
+    background: linear-gradient( blue, rgb(125, 117, 205));
+    border-radius: 5px;
+    color: white;
+}
+
+.container {
+    background: linear-gradient( rgb(251, 251, 252), rgb(196, 196, 198));
+    width:50%;
+    margin: 10px auto;
+    border: solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form p {
+    text-align: left;
+    padding: 10px;
+}
+
+form p a {
+    padding: 10px;
+}
+
+#option{
+    display:none;
+}
+
+#option:target {
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    vertical-align: center;
+}
+
+#fill {
+    grid-column: 1 / 3;
+    width:80;
+    margin: auto;
+    background: linear-gradient( rgb(251, 251, 252), rgb(196, 196, 198));
+}
+
+.close {
+    padding-bottom: 10px;
+}
+
+#div-affiche {
+    grid-column: 1;
+    position: relative;
+}
+
+#affiche, #cache {
+    background-color: rgb(251, 251, 252);
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#affiche {
+    z-index: 0;
+}
+
+#affiche:target {
+    z-index: 1;
+}
+
+
+
+    
