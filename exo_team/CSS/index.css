@@ -1,3 +1,10 @@
+body {
+    min-width: 400px;
+    max-width: 1000px;
+    width:90%;
+    margin:auto;
+}
+
 
 /* header */
 header h1, p{
@@ -24,6 +31,12 @@ hr {
     display: flex;
     text-align: center;
     justify-content: space-around;
+    width: 70%;
+    margin:auto;
+}
+
+.line:not(:first-of-type) {
+    flex-wrap: wrap;
 }
 
 .image_chef img{
