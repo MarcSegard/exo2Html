@@ -1,3 +1,21 @@
+a {
+    color:black;
+}
+
+input, .container{
+    box-shadow: 0 0 4px black;
+    border-radius: 4px;
+}
+
+select {
+    box-shadow: 0 0 2px 2px black;
+}
+
+#form-title {
+    text-align: left;
+    padding-left: 54px;;
+}
+
 .principale{
     width:80%;
     margin:auto;
@@ -36,6 +54,9 @@
     background: linear-gradient( blue, rgb(125, 117, 205));
     border-radius: 5px;
     color: white;
+    width: 100px;
+    height: 40px;
+    margin: 20px 0;
 }
 
 .container {
@@ -72,6 +93,7 @@ form p a {
 #fill {
     grid-column: 1 / 3;
     width:80;
+    height:20px;
     margin: auto;
     background: linear-gradient( rgb(251, 251, 252), rgb(196, 196, 198));
 }
@@ -86,10 +108,20 @@ form p a {
 }
 
 #affiche, #cache {
-    background-color: rgb(251, 251, 252);
+    background-color: rgb(228,228,229);
     position: absolute;
     top:0;
     left:0;
+}
+
+#cache {
+    padding-left: 13px;
+    background-color: rgb(228,228,229);
+}
+
+#affiche {
+    background-color:  rgb(216,216,217);
+    padding-left: 10px;
 }
 
 #affiche {
@@ -99,7 +131,6 @@ form p a {
 #affiche:target {
     z-index: 1;
 }
-
 
 
     

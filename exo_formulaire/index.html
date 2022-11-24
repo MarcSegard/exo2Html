@@ -9,11 +9,17 @@
   </head>
   <body>
     <div class="container">
-      <span>INSCRIPTION A CSS3</span>
+      <div id="form-title">INSCRIPTION A CSS3</div>
       <form action="">
         <div class="principale">
           <label for="nom">Nom >></label>
-          <input type="text" name="nom" required />
+          <input
+            type="text"
+            name="nom"
+            required
+            maxlength="20"
+            placeholder="max 20 carac."
+          />
           <label for="pwd">Mot de passe >></label>
           <input type="password" />
           <div id="div-affiche">
@@ -24,7 +30,7 @@
         </div>
         <div id="option">
           <label for="code-postal">Code Postal >></label>
-          <input type="number" pattern="[0-9]{5}" />
+          <input type="text" pattern="[0-9]{5}"" placeholder="ex:76500" />
           <label for="ville">Ville >></label>
           <input type="text" />
           <label for="pays">Pays >></label>
